@@ -4,7 +4,7 @@
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   transition: .2s linear;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
@@ -75,3 +75,55 @@ section {
   cursor: pointer;
 }
 /* HEADER */
+
+/* HOME */
+.home-container {
+  background: url("../assets/home-img.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.home-container section {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.home-container .content {
+  max-width: 60rem;
+}
+
+.home-container .content h3 {
+  color: var(--main-color);
+  font-size: 7rem;
+}
+
+.home-container .content span {
+  color: #ffffff;
+  font-size: 6rem;
+  font-weight: 700;
+  text-align: justify;
+}
+
+.home-container .content p {
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: justify;
+  line-height: 1.8;
+  font-weight: 300;
+  padding: 1rem 0;
+}
+
+.home-container .content .btn {
+  background-color: var(--main-color);
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 1rem 3rem;
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+/* HOME */
