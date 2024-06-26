@@ -38,6 +38,8 @@ section {
   right: 0;
   z-index: 1000;
   border-bottom: var(--border);
+
+  background-color: #111;
 }
 
 .header section {
@@ -114,9 +116,8 @@ section {
   font-weight: 300;
   padding: 1rem 0;
 }
-
-
 /* HOME */
+
 
 /* ABOUT */
 .title {
@@ -156,6 +157,50 @@ section {
   padding: 1rem 0;
 }
 /* ABOUT */
+
+
+/* MENU */
+.menu-container .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.menu-container .box-container .box {
+  text-align: center;
+  border: var(--border);
+  border-radius: .5rem;
+  padding: 5rem;
+  cursor: pointer;
+}
+
+.menu-container .box-container .box:hover {
+  background-color: var(--black);
+}
+
+.menu-container .box-container .box img {
+  height: 10rem;
+}
+
+.menu-container .box-container .box h3 {
+  color: #ffffff;
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.menu-container .box-container .box .price {
+  color: #ffffff;
+  font-size: 2rem;
+  padding: .5rem 0;
+}
+
+.menu-container .box-container .box .price span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--main-color);
+}
+/* MENU */
+
 
 /* UTILITY CLASSES */
 .btn {
