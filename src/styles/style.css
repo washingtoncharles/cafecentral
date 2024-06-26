@@ -232,6 +232,15 @@ section {
 /* REVIEW */
 
 
+/* ADDRESS */
+.address-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+/* ADDRESS */
+
+
 /* UTILITY CLASSES */
 .btn {
   background-color: var(--main-color);
