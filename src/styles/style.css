@@ -160,12 +160,6 @@ section {
 
 
 /* MENU */
-.menu-container .box-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
-}
-
 .menu-container .box-container .box {
   text-align: center;
   border: var(--border);
@@ -202,6 +196,36 @@ section {
 /* MENU */
 
 
+/* REVIEW */
+.review-container .box-container .box {
+  border: var(--border);
+  text-align: center;
+  padding: 3rem 2rem;
+  cursor: pointer;
+}
+
+.review-container .box-container .box:hover {
+  background-color: var(--black);
+}
+
+.review-container .box-container .box p {
+  font-size: 1.5rem;
+  text-align: justify;
+  line-height: 1.8;
+  font-weight: lighter;
+  color: #ffffff;
+  padding: 2rem 0;
+}
+
+.review-container .box-container .box .avatar {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  margin-bottom: .5rem;
+}
+/* REVIEW */
+
+
 /* UTILITY CLASSES */
 .btn {
   background-color: var(--main-color);
@@ -220,4 +244,10 @@ section {
 
 .btn:hover {
   background-color: #af9069;
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
 }
