@@ -115,7 +115,50 @@ section {
   padding: 1rem 0;
 }
 
-.home-container .content .btn {
+
+/* HOME */
+
+/* ABOUT */
+.title {
+  font-size: 5rem;
+  color: var(--main-color);
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+}
+
+.title span {
+  color: #ffffff;
+}
+
+.about-container .row {
+  display: flex;
+  align-items: center;
+  background-color: var(--black);
+  gap: 1.5rem;
+}
+
+.about-container .row .content {
+  padding: 2rem;
+}
+
+.about-container .content h3 {
+  color: var(--main-color);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.about-container .content p {
+  color: #ffffff;
+  font-size: 1.6rem;
+  text-align: justify;
+  line-height: 1.5;
+  padding: 1rem 0;
+}
+/* ABOUT */
+
+/* UTILITY CLASSES */
+.btn {
   background-color: var(--main-color);
   color: #ffffff;
   text-transform: uppercase;
@@ -125,5 +168,11 @@ section {
   font-size: 1.8rem;
   font-weight: 600;
   cursor: pointer;
+  border-radius: .5rem;
+
+  transition: background-color 0.3s ease;
 }
-/* HOME */
+
+.btn:hover {
+  background-color: #af9069;
+}
